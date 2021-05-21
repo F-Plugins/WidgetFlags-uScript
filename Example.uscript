@@ -1,0 +1,4 @@
+event onPlayerJoined(player){
+    WidgetFlags.hide(player.id, "ShowFood");
+}
+
